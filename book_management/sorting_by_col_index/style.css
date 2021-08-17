@@ -1,0 +1,17 @@
+.container {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: linen 
+    }
+  
+    th, td {
+      padding: 5px;
+    }
+    th {
+      text-align: left;
+    }

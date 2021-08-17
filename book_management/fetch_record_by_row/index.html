@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: linen
+  }
+
+  th, td {
+    padding: 5px;
+  }
+  th {
+    text-align: left;
+  }
+
+</style>
+
+<script type="text/javascript" src="./script.js">
+</script>
+
+</head>
+<body>
+
+  <h2 style="text-align:center">Book List</h2>
+
+  <table style="width:100%" id="bookTable">
+
+    <tr>
+      <th>S. No.</th>
+      <th>Name</th>
+      <th>Author</th>
+      <th>Price</th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>Book 2</td>
+      <td>xyz</td>
+      <td>200</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Book 4</td>
+      <td>abc</td>
+      <td>250</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>Book 1</td>
+      <td>def</td>
+      <td>100</td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>Book 3</td>
+      <td>mno</td>
+      <td>300</td>
+    </tr>
+
+  </table>
+  <br><br>
+  <div class="container">
+    <input type="text" id="row" placeholder="Enter the row number">
+    <button type="button" onclick="fetchRecord()">Show details</button>
+  </div>
+  <div id="selectedRow"></div>
+
+</body>
+
+</html>

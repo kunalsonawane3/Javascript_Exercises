@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./style.css">
+
+<script type="text/javascript" src="./script.js">
+</script>
+
+</head>
+<body>
+
+  <h2 style="text-align:center">Book List</h2>
+  <div class="container">
+    <table style="width:100%" id="bookTable">
+
+        <tr>
+          <th>S. No.</th>
+          <th>Name</th>
+          <th>Author</th>
+          <th>Price</th>
+        </tr>
+    
+        <tr>
+          <td>1</td>
+          <td>Book 2</td>
+          <td>xyz</td>
+          <td>200</td>
+        </tr>
+    
+        <tr>
+          <td>2</td>
+          <td>Book 4</td>
+          <td>abc</td>
+          <td>250</td>
+        </tr>
+    
+        <tr>
+          <td>3</td>
+          <td>Book 1</td>
+          <td>def</td>
+          <td>100</td>
+        </tr>
+    
+        <tr>
+          <td>4</td>
+          <td>Book 3</td>
+          <td>mno</td>
+          <td>300</td>
+        </tr>
+    
+      </table>
+  </div>
+  
+  <br><br>
+  <div class="container">
+	  <input type="text" id="col" placeholder="Enter the column index" autocomplete="off">
+      <br><br>
+	  <button type="button" onclick="sort(0)">Sort Accending</button>
+    <button type="button" onclick="sort(1)">Sort Deccending</button>
+  </div>
+
+</body>
+
+</html>
