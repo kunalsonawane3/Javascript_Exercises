@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-fixed md:w-auto" background="../icons/photo-weather.jpg" style="background-size: cover;">
+    <div class="">
+        <div>
+            <h1 class="text-3xl font-bold py-10 text-center text-black underline">Wheather Forecast</h1>
+        </div>
+        <div class=" h-1/6 mx-60 grid grid-cols-2">
+            <div>
+                <input type="text" id="search-input" placeholder="Enter city name" required autocomplete="off" 
+                class="mx-60 w-11/12 h-10 bg-red-200 text-center rounded-xl self-start">
+            </div>
+            
+            <div>
+                <button type="submit" id="search-btn" class="self-center mx-60 px-4 py-3 bg-green-500 opacity-50 hover:bg-green-800 rounded-md ring-1 ring-red-700 ring-opacity-50 text-black font-bold">Search</button>
+            </div>
+            
+        </div>
+        
+        <div>
+            <div id="location" class="md:mr-20 mt-10 text-2xl text-center text-3xl pb-5">
+                <p>-----</p>
+            </div>
+        </div>
+        
+        <div class="bg-red-200 bg-opacity-25 box-border border-1 rounded-xl mx-60 py-4">
+            <main>
+                <div>
+                    
+                    <div class="grid grid-cols-4 mt-2 mx-18 mt-6 text-2xl text-center place-items-center">
+                        <div id="date" class="mr-28">
+                            <p>-----</p>
+                        </div>
+                        
+                        <div>
+                            <p class="ml-28 text-5xl text-center"><span id="temp-value">--</span><span>&#176C</span></p>
+                        </div>
+                        <div>
+                            <img id="temp-icon" src="../icons/sun.png" alt="" class="w-16 ml-60">  
+                        </div>
+                        <div id="climate" class="text-2xl text-center ">
+                            <p>-----</p>
+                        </div>
+                        
+                        
+
+                        <div id="date1" class="mr-28">
+                            <p>-----</p>
+                        </div>
+                        
+                        <div>
+                            <p class="ml-28 text-5xl"><span id="temp-value1">--</span><span>&#176C</span></p>
+                        </div>
+                        <div id="temp1" class="">
+                            <img id="temp-icon1" src="../icons/sun.png" alt="" class="w-16 ml-60">
+                        </div>
+                        <div id="climate1" class="text-2xl">
+                            <p>-----</p>
+                        </div>
+                        
+                        
+
+                        <div id="date2" class="mr-28">
+                            <p>-----</p>
+                        </div>
+                        
+                        <div>
+                            <p class="ml-28 text-5xl"><span id="temp-value2">--</span><span>&#176C</span></p>
+                        </div>
+                        <div id="temp2" class="">
+                            <img id="temp-icon2" src="../icons/sun.png" alt="" class="w-16 ml-60">
+                        </div>
+                        <div id="climate2" class="text-2xl">
+                            <p>-----</p>
+                        </div>
+                        
+                        
+
+                        <div id="date3" class="mr-28">
+                            <p>-----</p>
+                        </div>
+                        
+                        <div>
+                            <p class="ml-28 text-5xl"><span id="temp-value3">--</span><span>&#176C</span></p>
+                        </div>
+                        <div id="temp3" class="">
+                            <img id="temp-icon3" src="../icons/sun.png" alt="" class="w-16 ml-60">
+                        </div>
+                        <div id="climate3" class="text-2xl">
+                            <p>-----</p>
+                        </div>
+                        
+                        
+
+                        <div id="date4" class="mr-28">
+                            <p>-----</p>
+                        </div>
+                        
+                        <div>
+                            <p class="ml-28 text-5xl"><span id="temp-value4">--</span><span>&#176C</span></p>
+                        </div>
+                        <div id="temp4" class="">
+                            <img id="temp-icon4" src="../icons/sun.png" alt="" class="w-16 ml-60">
+                        </div>
+                        <div id="climate4" class="text-2xl">
+                            <p>-----</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+        
+        
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
